@@ -10,7 +10,7 @@
 
     <h1>ユーザー登録</h1>
 
-    <form action="{{ route('register.store') }}" method="POST">
+    <form action="/register" method="POST">
         @csrf
 
         <div>
