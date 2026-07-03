@@ -16,7 +16,7 @@ use App\Http\Controllers\Auth\RegisterController;
 use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
-    return view('welcome');
+     return view('top');
 });
 
 Route::get('/register', [RegisterController::class, 'show'])->name('register');
